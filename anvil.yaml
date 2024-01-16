@@ -11,6 +11,7 @@ db_schema:
     title: users
 name: Oxyvive
 startup_form: Form1
+uplink_visible: true
 runtime_options:
   version: 2
   client_version: '3'
