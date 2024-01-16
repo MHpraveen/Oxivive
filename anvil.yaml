@@ -1,5 +1,14 @@
 allow_embedding: false
 package_name: Oxyvive
+db_schema:
+  users:
+    client: none
+    server: full
+    columns:
+    - name: id
+      admin_ui: {width: 200, order: 0}
+      type: number
+    title: users
 name: Oxyvive
 startup_form: Form1
 runtime_options:
