@@ -12,6 +12,9 @@ db_schema:
     - name: password
       admin_ui: {width: 200, order: 1}
       type: string
+    - name: number
+      admin_ui: {width: 200, order: 2}
+      type: number
 name: Oxyvive
 startup_form: Form1
 uplink_visible: true
