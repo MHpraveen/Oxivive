@@ -1,14 +1,17 @@
 allow_embedding: false
 package_name: Oxyvive
 db_schema:
-  users:
+  login:
+    title: login
     client: none
     server: full
     columns:
-    - name: id
+    - name: 'name '
       admin_ui: {width: 200, order: 0}
-      type: number
-    title: users
+      type: string
+    - name: password
+      admin_ui: {width: 200, order: 1}
+      type: string
 name: Oxyvive
 startup_form: Form1
 uplink_visible: true
